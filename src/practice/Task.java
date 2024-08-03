@@ -13,17 +13,17 @@ public class Task {
     }
     
     public LocalDate getDate() {
-        return date;
+        return this.date;
     }
 
     public String getTask() {
-        return task;
+        return this.task;
     }
 
     @Override
     public String toString() {
     	// 出力時に日付形式を元に戻す
-        return date + ":" + task;
+        return this.date + ":" + this.task;
     }
      
 }
